@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>simple_portfolio</title>
+
+
+        <link rel="stylesheet" type="text/css" href="css_home.css">
+
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+       
+    </head>
+    <body>
+        <header>
+            <menu class="menu1">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+           </menu>
+           <div class="pub" id="pubid">
+             <p>hello there!</p>
+           </div>
+            <menu class="menu2">
+                <ul>
+                    <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/hosny.raissi"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a><i class="fa-brands fa-linkedin-in"> </i></a></li>
+                </ul>
+            </menu>
+        </header>
+
+        <div class="card">
+            <img src="avatar.avif" alt="user" class="avatar_img">
+            <p class="text">Hello! I'm <a href="#">Hosny</a>, a passionate full-stack web developer from Tunisia currently residing in Ariana.
+                 I am pursuing my studies at the School of Engineers in Carthage (<a href="#">ENICarthage</a>). I love delving into the world 
+                 of web development, and my goal is to continually optimize my skills in this dynamic field. Let's connect and 
+                 share insights on the exciting journey of web development
+            </p>
+        </div>
+        <footer>
+            <form class="form1" action="">
+           <fieldset class="wd">
+                <legend>User basic information:</legend>
+                <label>First Name</label><br>
+                <input type="text" name="fname" id="first_name" value=""><br>
+                <label>Last Name</label><br>
+                <input type="text" name="lname" id="last_name" value=""><br>
+                <label>Enter Email</label><br>
+                <input type="email" name="email" id="e_mail" value=""><br><br>
+            </fieldset><br>
+           <label class="tx tx2">Enter your feedback:</label><br><br>
+            <textarea class="tx  tx3" name="message" id="msg" cols="40" rows="5" value=""></textarea>
+            <button onclick="user()" class="sent" type="submit">sent</button>
+        </form>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/220eade1da.js" crossorigin="anonymous"></script>
+        <script src="js_home.js"></script>
+    </body>
+</html>
